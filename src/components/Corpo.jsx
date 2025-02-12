@@ -1,6 +1,8 @@
 import React from 'react'
 import './Corpo.css'
 import Story from './Story'
+import Ladoesq from './Ladoesq'
+import Ladodir from './Ladodir'
 
 function Corpo() {
 
@@ -10,6 +12,7 @@ function Corpo() {
 
       <div className='corpo-esquerda'>
         {/**espaço vago */}
+        <Ladoesq /> 
       </div>
 
 
@@ -20,6 +23,7 @@ function Corpo() {
 
       <div className='corpo-direita'>
         {/**espaço vago */}
+        <Ladodir /> 
       </div>
       
     </div>
