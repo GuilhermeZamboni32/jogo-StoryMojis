@@ -1,0 +1,15 @@
+.container-cabecalho{
+    background-color: rgb(219, 64, 64);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    justify-content: center;
+    
+   
+}
+
+.texto-inicial{
+    color: rgb(14, 4, 4);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

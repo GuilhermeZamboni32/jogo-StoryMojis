@@ -1,0 +1,48 @@
+.container-story {
+    text-align: flex-start;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.titulo {
+    color: #201e1e;
+    
+   
+}
+  
+.espaço{
+    background-color: aqua;
+    height: 200px;
+}
+
+.espaço-2{
+    background-color: aqua;
+    height: 50px;
+}
+
+button {
+    background-color: #3abd3e;
+    border: none;
+    color: rgb(37, 36, 36);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+  
+button:hover {
+    background-color: #39803d;
+}
+  
+p {
+    font-size: 100px;
+    margin-top: 20px;
+ }
