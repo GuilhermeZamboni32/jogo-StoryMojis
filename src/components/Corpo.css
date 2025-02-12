@@ -1,78 +1,35 @@
 :root{
     --cor-1: #e71212;
-    --cor-2: #e2b00e;
-    --cor-3: #c1cc29;
-    --cor-4: #ce1f3a;
-    --cor-5: #e6e6e6;
-    --cor-6: #ef97a4;
+    --cor-2: #e24a0e;
+    --cor-3: #df8713;
+    --cor-4: #ecc70d;
+    --cor-5: #71e80a;
+    --cor-6: #000000;
 }
 
 .container-corpo {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    background-color: rgb(212, 150, 34);
-    color: rgb(0, 0, 0);
+    background-color: var(--cor-3);
+    color: var(--cor-6);
     height: calc(100vh - 60px);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
 .corpo-esquerda, .corpo-direita {
-    background-color: blueviolet;
+    background-color: var(--cor-1);
     height: 800px;
     width: 600px;
+   
 }
 
 .corpo-meio {
-    background-color: brown;
+    background-color: var(--cor-2);
     height: 800px;
     width: 740px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-.container-ladoesq{
-    background-color: #ce1f3a;
-    height: 800px;
-    width: 600px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
-.container-ladodir{
-    background-color: #c1cc29;
-    height: 800px;
-    width: 600px;
-}

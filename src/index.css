@@ -6,3 +6,8 @@
   #root, body, html{
     height: 100vh;
   }
+
+  p {
+    font-size: 100px;
+    margin-top: 20px;
+}

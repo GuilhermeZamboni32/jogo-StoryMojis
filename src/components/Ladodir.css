@@ -8,18 +8,14 @@
     --cor-6: #000000;
 }
 
-
-
-.container-cabecalho{
-    background-color: var(--cor-1);
-    color: var(--cor-6);
-    height: 60px;
-    justify-content: center;
-    
-   
+.container-ladodir{
+    background-color: var(--cor-4);
+    background: linear-gradient(to right, var(--cor-2), var(--cor-1));
+    height: 800px;
+    width: 600px;
 }
 
-.texto-inicial{
+.titulodir{
     color: var(--cor-6);
     align-items: center;
     display: flex;
