@@ -58,7 +58,7 @@
     height: 50px;
 }
 
-button {
+.b1 ,.b2 {
     background-color: var(--cor-4);
     border: none;
     color: var(--cor-6);
@@ -72,9 +72,18 @@ button {
     border-radius: 40px;
 }
   
-button:hover {
+.b1:hover {
     background-color: var(--cor-5);
 }
+
+.b2:hover {
+    background-color: var(--cor-1);
+}
+
+
+
+
+
   
 p {
     font-size: 100px;

@@ -9,8 +9,8 @@
 }
 
 .container-ladodir{
-    background-color: var(--cor-4);
-    background: linear-gradient(to right, var(--cor-2), var(--cor-1));
+    background-color: var(--cor-2);
+    background: linear-gradient(to right, var(--cor-2), var(--cor-5));
     height: 800px;
     width: 600px;
 }

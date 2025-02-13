@@ -10,7 +10,7 @@
 
 .container-ladoesq{
     background-color: var(--cor-3);
-    background: linear-gradient(to right, var(--cor-1), var(--cor-2));
+    background: linear-gradient(to right, var(--cor-4), var(--cor-2));
     height: 800px;
     width: 600px;
     flex-direction: column;
@@ -29,6 +29,6 @@
 
 .img{
     margin-top: 100px;
-    width: 500px; /* Define a largura */
+    width: 500px; 
     height: auto;
 }

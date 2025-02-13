@@ -28,6 +28,8 @@ function Story() {
     }
 
 
+    
+
 //----------------------------------------------------------
     setHistory(prevHistory => [...prevHistory, iconeClone[n]].slice(-5));
   };
@@ -60,8 +62,8 @@ function Story() {
         {/* Espaço entre os elementos */}
       </div>
 
-      <button onClick={GeraRandomNumber}>Gerar emoji</button>
-      <button onClick={reset}>reinici</button>
+      <button className='b1' onClick={GeraRandomNumber}>Gerar emoji</button>
+      <button className='b2' onClick={reset}>reinici</button>
       
     </div>
   );
